@@ -1,0 +1,48 @@
+.hero-section {
+  height: 90vh;
+  overflow: hidden;
+
+  h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 62em) {
+    h1 {
+      font-size: 4.5rem;
+    }
+
+    .hero-text {
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
+
+      p {
+        width: 100%;
+        margin: 1rem auto;
+      }
+    }
+  }
+
+  @media (max-width: 36em) {
+    h1 {
+      text-transform: uppercase;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  p {
+    font-size: 1.6rem;
+  }
+  img {
+    width: 100%;
+  }
+
+  a {
+    font-size: 1.6rem;
+    padding: 0.7rem 3rem;
+  }
+}

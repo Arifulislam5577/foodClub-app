@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 0.7rem 0rem;
+    a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #2e2e2e;
+    }
+  }
+}
+
+.footer-section-one {
+  p {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    li {
+      margin-right: 0.7rem;
+      a {
+        background-color: #ff552a;
+        color: #fff;
+        padding: 0.7rem 1rem;
+        display: inline-block;
+      }
+    }
+  }
+}

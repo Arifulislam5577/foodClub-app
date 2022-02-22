@@ -1,0 +1,26 @@
+.category {
+  .category-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    height: 10rem;
+    object-fit: contain;
+  }
+
+  .card {
+    background-color: transparent;
+    transition: all 0.4s;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.075);
+
+    // border: none;
+    border: 1px solid rgba(221, 221, 221, 0.452);
+    // border-left: 0.3rem solid #2e2e2e;
+    border-left: 0.3rem solid #ff552a;
+    &:hover {
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    }
+  }
+}

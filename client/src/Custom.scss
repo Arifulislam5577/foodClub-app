@@ -1,0 +1,54 @@
+$primary: #ff552a;
+$dark: #2e2e2e;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #f5f4f8 !important;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 62em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 36em) {
+  html {
+    font-size: 38%;
+  }
+}
+
+nav {
+  overflow: hidden;
+}
+
+#logo {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #2e2e2e;
+}
+
+Link {
+  text-decoration: none;
+}
+
+@import "~bootstrap/scss/bootstrap.scss";

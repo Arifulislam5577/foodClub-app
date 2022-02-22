@@ -1,0 +1,40 @@
+.cart {
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem 3rem;
+    text-align: center;
+  }
+
+  .table thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid hsla(0, 0%, 87%, 0.575);
+  }
+
+  th {
+    padding: 1.5rem;
+  }
+
+  .qty {
+    border: 1px solid #999;
+    padding: 0.3rem;
+    cursor: pointer;
+    margin: 0.6rem;
+    color: #333;
+    transition: all 0.5s;
+    &:hover {
+      color: #111;
+      border: 1px solid #111;
+    }
+  }
+
+  .delete-icon {
+    font-size: 2rem;
+    color: orangered;
+    cursor: pointer;
+
+    &:hover {
+      color: red;
+    }
+  }
+}

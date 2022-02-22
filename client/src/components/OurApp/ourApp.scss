@@ -1,0 +1,23 @@
+.ourApp {
+  p {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  @media (max-width: 50em) {
+    .app-text {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+
+  //   app-text : text-align: center
+}

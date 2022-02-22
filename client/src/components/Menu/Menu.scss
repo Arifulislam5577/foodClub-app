@@ -1,0 +1,40 @@
+.menu-section {
+  img {
+    height: 20rem;
+  }
+
+  ul {
+    li {
+      padding: 0rem 0.3rem;
+    }
+  }
+
+  i {
+    font-size: 1.5rem;
+  }
+  .card {
+    background-color: transparent;
+    transition: all 0.4s;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.075);
+    border-radius: 1rem;
+
+    border: none;
+    &:hover {
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    }
+  }
+  .card-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .card-text {
+    font-size: 1.5rem;
+  }
+
+  .card-price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+}
